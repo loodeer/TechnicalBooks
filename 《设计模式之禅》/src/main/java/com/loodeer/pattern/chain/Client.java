@@ -1,3 +1,5 @@
+package com.loodeer.pattern.chain;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -13,7 +15,7 @@ public class Client {
             arrayList.add(new Women(rand.nextInt(3) + 1, "我要出去逛街"));
         }
 
-        Handler father = new Father1();
+        Handler father = new Father();
         Handler husband = new Husband();
         Handler son = new Son();
 

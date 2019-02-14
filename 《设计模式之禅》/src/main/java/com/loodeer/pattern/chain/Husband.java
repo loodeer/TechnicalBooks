@@ -1,8 +1,10 @@
+package com.loodeer.pattern.chain;
+
 /**
  * @author loodeer
- * @date 2019-02-14 00:54
+ * @date 2019-02-14 10:09
  */
-public class Husband extends Handler{
+public class Husband extends Handler {
     public Husband() {
         super(Handler.HUSBAND_LEVEL_REQUEST);
     }
@@ -14,3 +16,4 @@ public class Husband extends Handler{
         System.out.println("丈夫的答复是：同意");
     }
 }
+

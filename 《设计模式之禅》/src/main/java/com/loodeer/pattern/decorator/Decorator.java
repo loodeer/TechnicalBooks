@@ -1,8 +1,10 @@
+package com.loodeer.pattern.decorator;
+
 /**
  * @author loodeer
  * @date 2019-02-14 00:12
  */
-public abstract class Decorator extends SchoolReport{
+public abstract class Decorator extends SchoolReport {
     // 被装饰对象，这里是成绩单
     private SchoolReport schoolReport;
     // 构造函数，将成绩单传进来

@@ -1,6 +1,8 @@
+package com.loodeer.pattern.chain;
+
 /**
  * @author loodeer
- * @date 2019-02-14 00:55
+ * @date 2019-02-14 10:09
  */
 public class Son extends Handler {
     public Son() {
@@ -14,3 +16,4 @@ public class Son extends Handler {
         System.out.println("儿子的答复是：同意");
     }
 }
+

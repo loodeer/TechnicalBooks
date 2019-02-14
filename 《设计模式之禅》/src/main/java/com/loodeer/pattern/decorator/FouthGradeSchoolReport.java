@@ -1,8 +1,10 @@
+package com.loodeer.pattern.decorator;
+
 /**
  * @author loodeer
  * @date 2019-02-14 00:24
  */
-public class FouthGradeSchoolReport extends SchoolReport{
+public class FouthGradeSchoolReport extends SchoolReport {
     @Override
     public void report() {
         System.out.println("尊敬的XXX家长");

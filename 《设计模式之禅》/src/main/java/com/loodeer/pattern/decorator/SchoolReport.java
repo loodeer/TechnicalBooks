@@ -1,3 +1,5 @@
+package com.loodeer.pattern.decorator;
+
 /**
  * @author loodeer
  * @date 2019-02-14 00:10

@@ -1,7 +1,10 @@
+package com.loodeer.pattern.chain;
+
 /**
  * @author loodeer
- * @date 2019-02-14 00:34
+ * @date 2019-02-14 10:07
  */
+
 public abstract class Handler {
     public final static int FATHER_LEVEL_REQUEST = 1;
     public final static int HUSBAND_LEVEL_REQUEST = 2;
@@ -32,3 +35,4 @@ public abstract class Handler {
         }
     }
 }
+

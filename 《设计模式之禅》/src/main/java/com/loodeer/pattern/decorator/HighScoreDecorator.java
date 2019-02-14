@@ -1,8 +1,10 @@
+package com.loodeer.pattern.decorator;
+
 /**
  * @author loodeer
  * @date 2019-02-14 00:17
  */
-public class HighScoreDecorator extends Decorator{
+public class HighScoreDecorator extends Decorator {
     public HighScoreDecorator(SchoolReport schoolReport) {
         super(schoolReport);
     }

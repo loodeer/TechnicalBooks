@@ -1,6 +1,8 @@
+package com.loodeer.pattern.chain;
+
 /**
  * @author loodeer
- * @date 2019-02-14 00:39
+ * @date 2019-02-14 10:07
  */
 public class Women implements IWomen {
     /**
@@ -37,3 +39,4 @@ public class Women implements IWomen {
         return this.request;
     }
 }
+

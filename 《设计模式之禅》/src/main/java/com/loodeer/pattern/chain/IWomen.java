@@ -1,3 +1,5 @@
+package com.loodeer.pattern.chain;
+
 public interface IWomen {
     // 婚姻状况
     public int getType();
