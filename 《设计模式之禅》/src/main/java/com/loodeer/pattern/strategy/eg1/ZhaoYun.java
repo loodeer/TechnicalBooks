@@ -1,4 +1,4 @@
-package com.loodeer.pattern.strategy;
+package com.loodeer.pattern.strategy.eg1;
 
 /**
  * @author loodeer
