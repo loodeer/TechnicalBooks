@@ -13,10 +13,12 @@ public class Client {
         for(;;) {
             // 进行语法判断，并产生递归调用
         }
+        /*
         Expression exp = stack.pop();
 
         // 具体元素进入场景
         Context ctx = new Context();
         exp.interpreter(ctx);
+        */
     }
 }
